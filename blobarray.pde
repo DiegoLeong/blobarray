@@ -2,9 +2,10 @@ Walker[] bob;
 void setup()
 {
   size(500,500);
-  bob = new Walker[1000];
-  for(int i=0; i < bob.length; i++){
-  bob[i]=new Walker();
+  bob = new Walker[10];
+  for(int i=0; i < bob.length; i++)
+  {
+    bob[i]=new Walker();
   }
 }
 
